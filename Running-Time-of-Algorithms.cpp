@@ -1,7 +1,7 @@
 int runningTime(vector<int> arr)
 {
-    int n = arr.size();
     int running_time = 0;
+    int n = arr.size();
     
     for (int i = 1; i < n; ++i)
     {
